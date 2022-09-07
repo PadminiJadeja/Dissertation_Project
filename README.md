@@ -14,15 +14,6 @@ Script Files:
 
 joboutput_*.out Files: This files contain the output that is generated when train_submit.sbatch file is executed.
 
-
-Dataset Folders:
-
-### The dataset Folders are removed from the Project Directory as the size of these folders were very large (Total of 22 GB)
-Links to download these datasets are mentioned at the bottom.
-1) UCSD_Anomaly_Dataset : contains UCSD Ped1 and Ped2 Dataset
-2) Avenue Dataset : contains CUHK Avenue Dataset
-3) ShanghaiTech : contains ShanghaiTech Dataset
-
 Model_Save Folder : Contains saved gan model for all datasets at 0,1000,2000,3000,4000,5000 epochs
 
 Generated_Image_* Folder: Contains the reconstruced sample frames for each dataset at 0,1000,2000,3000,4000,5000 epochs
@@ -36,7 +27,12 @@ Generated_Anomaly_Score_* Folder: This folder contains-
                             evaluation_*.py file is for ploting the ROC curves and calculating the auc and eer.
                             graph_script.py file contains code to plot the Regularity Score for each test videos. These plots are stored in Graph folder.
 
+Dataset Folders:
+The dataset Folders are removed from the Project Directory as the size of these folders were very large (Total of 22 GB)
+Links to download these datasets are mentioned below:
 
 CUHK Avenue Dataset Download:  http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html
+
 UCSD Dataset Download: 	 http://www.svcl.ucsd.edu/projects/anomaly/dataset.html
+
 ShanghaiTech Dataset Download: https://svip-lab.github.io/dataset/campus_dataset.html
