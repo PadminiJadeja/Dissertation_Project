@@ -20,11 +20,17 @@ Generated_Image_* Folder: Contains the reconstruced sample frames for each datas
 
 Generated_Anomaly_Score_* Folder: This folder contains-
                         1) Regularity Score for each test video stored in csv files
+                        
                         2) Ground Truth files for the test videos (stored in file names frames_*)
+                        
                         3) ROC folder: contains roc graph of tested video frames
+                        
                         4) Graphs Folder: contains the plot of Regularity Score vs Frame Number for each test videos
+                        
                         5) contains scripts to plot graphs and evaluate results (graph_script.py and evaluation_*.py). 
+  
                             evaluation_*.py file is for ploting the ROC curves and calculating the auc and eer.
+                            
                             graph_script.py file contains code to plot the Regularity Score for each test videos. These plots are stored in Graph folder.
 
 Dataset Folders:
