@@ -17,7 +17,7 @@ joboutput_*.out Files: This files contain the output that is generated when trai
 
 Dataset Folders:
 
-# The dataset Folders are removed from the Project Directory as the size of these folders were very large (Total of 22 GB)
+### The dataset Folders are removed from the Project Directory as the size of these folders were very large (Total of 22 GB)
 Links to download these datasets are mentioned at the bottom.
 1) UCSD_Anomaly_Dataset : contains UCSD Ped1 and Ped2 Dataset
 2) Avenue Dataset : contains CUHK Avenue Dataset
